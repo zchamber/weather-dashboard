@@ -1,0 +1,61 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header and search container */
+header {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1976D2;
+}
+
+/* Styling for forecast items */
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.forecast-item {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
