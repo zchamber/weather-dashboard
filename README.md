@@ -4,22 +4,18 @@ A web aplication that allows the user to type in a location and see the current 
 
 ## Features
 
-- *Real-time Date and Time Display*: Always know the current date and time.
-- *Color-Coded Time Blocks*: Easily identify past, present, and future events.
-- *Task Management*: Add, edit, and remove task descriptions.
-- *Local Storage*: Your schedule is saved locally for convenience.
+- *Search by city*: current weather and weather forcast searchable by city.
+- *Saved privious cities*: Easily identify past searches. 
 
 
 ## Acknowledgments
 
-- Special thanks to [Bootstrap](https://getbootstrap.com/) for the front-end framework.
-- [Font Awesome](https://fontawesome.com/) for icons.
-- [Day.js](https://day.js.org/) for date and time functionality.
+- Special thanks to [openweathermap](https://openweathermap.org/) weather information. 
 
 ## Deployment
 
-- *Deployed Application*: https://zchamber.github.io/task-manager/
-- *GitHub Repository*: https://github.com/zchamber/task-manager
+- *Deployed Application*: https://zchamber.github.io/weather-dashboard/
+- *GitHub Repository*: https://github.com/zchamber/weather-dashboard
 
 ## Contributing
 
